@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Aida GASSAMA - CV</title>
+
+	<link rel="icon" href="./img/lys_spiral_50x50_72.png" type="image/png">
+	<!-- Lien vers la page Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		
+	<!-- Lien vers la page CSS-->
+	<link rel="stylesheet" href="./css/cv_style.css">
+</head>
+<body>
+<div class="page-container">
+	<header>
+		<div id="banner-header">
+			<div class="text-banner">
+				<div class="text-banner-left-sidebar" >A&iuml;da F&eacute;licia GASSAMA</div>
+			</div>
+		</div>
+	</header>
+
+	<nav id='nav'> 
+		<ul class="liste-nav">
+				<li class="item"><a href="index.html">Accueil</a></li>
+				<li class="item"><a href="formations.html">Formations</a></li>
+				<li class="item"><a href="experiences.html">Exp&eacute;riences</a></li>
+				<li class="item"><a href="competences.html">Comp&eacute;tences</a></li>
+					<!-- <li class="item"><a href="travaux.html">Travaux</a></li> -->
+				<li class="item"><a href="loisirs.html">Loisirs</a></li>
+		</ul>
+
+
+
+		<div class="btn-responsive-menu">
+				<div class="lignes"></div>
+				<div class="lignes"></div>
+				<div class="lignes"></div>
+		</div>
+	</nav>
+
+	<main class="padding-left">
+		<div class="page-title">
+			<h2>
+				Formations 
+			</h2>
+
+		<p class="padding-10 white-bg centered">Cliquer sur le nom des dipl&ocirc;mes/domaines pour faire appara&icirc;tre la liste des cours</p>
+		</div>
+		<ul id="SommaireFormations">
+			<li class="exp-list"><a href="#FormProgInfo" onclick="openCollapseSamePage('#FormProgInfo')">Depuis 2016&nbsp;: Informatique (cours du soir et en ligne) </a></li>
+			<li class="exp-list"><a href="#PrepConcoursMediat" onclick="openCollapseSamePage('#PrepConcoursMediat')">2022-2023&nbsp;: Pr&eacute;paration au concours d'assistant de conservation du patr. et des bib.</a></li>
+			<li class="exp-list"><a href="#FormAndragogie" onclick="openCollapseSamePage('#FormAndragogie')">2016-2023&nbsp;: Formation pour adultes </a></li>
+			<li class="exp-list"><a href="#L3Bib" onclick="openCollapseSamePage('#L3Bib')">2011-2012&nbsp;: Licence Biblioth&egrave;ques</a></li>
+			<li class="exp-list em"><a href="#M1InfoDoc" onclick="openCollapseSamePage('#M1InfoDoc')">2005-2006&nbsp;: Master 1 Gestion de l’information et du document</a></li>
+		</ul>
+
+<div class="white-bg">
+	<p>&nbsp;</p>
+</div>
+
+<div id="FormProgInfo">
+	<div class="accordion" id="accordionFormProgInfo">
+		<div id="FormProgInfo" class="card border-0" >
+	<div id="headingFormProgInfo" class="card-header">				
+		<h2 id="tileFormProgInfo" onclick="switchImg('plusFormProgInfo')">
+			<button class="btn btn-block text-left font-weight-bold accordion-heading" type="button" data-toggle="collapse" data-target="#collapseFormProgInfo" aria-expanded="true" aria-controls="collapseFormProgInfo"> Informatique (cours du soir et en ligne) <img id="plusFormProgInfo" class=" imgCollapse details pull-right" src='img/plus.png'></button>
+		</h2>
+	</div>
+	<div id="detailsFormProgInfo" class="padding-10">
+		<div class="diploma-info uni-info">
+			<img class="details" src='img/uni.png'>
+							Cnam / OpenClassrooms / FunMooc
+		</div> 
+		<div class="diploma-info year-info">
+			<img class="details" src='img/calendar.png'>
+							Depuis 2016
+		</div>
+		<div class="diploma-info">
+			
+		</div>
+	</div>
+
+	<div id="collapseFormProgInfo" class="collapse" aria-labelledby="headingFormProgInfo" data-parent="#accordionFormProgInfo">
+	 	<div id="bodyFormProgInfo" class="card-body border-0">
+	 		<div id="FormCnamInfo">
+	 			<p>
+					<span class="job-dates">2016-2020</span>
+					<span class="job-title">Cnam (Conservatoire des Arts et M&eacute;tiers)</span>
+					
+				</p>
+
+				<div>
+					<div class="third-space">
+						<span class="bold">Programmation (Java)</span>
+						<ul>
+							<li>Notions de base (<a href="https://formation.cnam.fr/rechercher-par-discipline/programmation-avec-java-notions-de-base-1594922.kjsp" target="_blank">NFA031</a>)&nbsp;;</li>
+							<li>Programmation orient&eacute;e objet (<a href="https://formation.cnam.fr/rechercher-par-discipline/programmation-java-programmation-objet-1594923.kjsp" target="_blank">NFA032</a>)&nbsp;;</li>
+							<li>Biblioth&egrave;ques et patterns (<a href="https://formation.cnam.fr/rechercher-par-discipline/programmation-java-bibliotheques-et-patterns-1594924.kjsp" target="_blank">NFA035</a>).</li>
+						</ul>
+					</div>
+				
+					<div class="third-space">
+						<span class="bold">D&eacute;veloppement web</span>
+							<ul>
+								<li>Architecture du web et d&eacute;veloppement c&ocirc;t&eacute; client (HTML, CSS, Javascript - <a href="https://formation.cnam.fr/rechercher-par-discipline/architecture-et-langages-web-1594927.kjsp" target="_blank">NFA040</a>).</li>
+							</ul>
+					</div>
+
+					<div class="third-space">
+						<span class="bold">Bases de donn&eacute;es / Syst&egrave;mes</span>
+							<ul>
+								<li>Conception, cr&eacute;ation et utilisation d'un SGBD relationnel (<a href="https://formation.cnam.fr/rechercher-par-discipline/bases-de-donnees-1594911.kjsp" target="_blank">NFA008</a>)&nbsp;;</li>
+								<li>Principes et fonctionnement des syst&egrave;mes d'exploitation (<a href="https://formation.cnam.fr/rechercher-par-discipline/principes-et-fonctionnement-des-systemes-d-exploitation-1594907.kjsp" target="_blank">NFA003</a>).</li>
+							</ul>
+					</div>
+	
+				</div>
+			</div>
+
+			<div id="FormOnlineInfo">
+	 			<p>
+					<span class="job-dates">Depuis 2020</span>
+					<span class="job-title">Open Classrooms / FunMooc (cours en ligne)</span>
+				</p>
+
+				<div>
+					<div class="two-third-space">
+						<span class="bold">OpenClassrooms</span>
+						<ul>
+							<li>Concevez votre site web avec PHP et MySQL (2020)&nbsp;;</li>
+							<li>Apprenez &agrave; programmer avec JavaScript (2020-2021)&nbsp;;</li>
+							<li>Apprenez les bases du langage Python (2025)&nbsp;;</li>
+							<li>Cr&eacute;ez des pages web dynamiques avec JavaScript (2025)&nbsp;;</li>
+							<li>G&eacute;rez vos incidents avec le r&eacute;f&eacute;rentiel ITIL sur GLPI (2025)&nbsp;;</li>
+							<li>D&eacute;couvrez la gestion de tickets avec Zendesk (2025).</li>
+						</ul>
+					</div>
+				
+					<div class="one-third-space">
+						<span class="bold">FunMooc</span>
+							<ul>
+								<li>ABC du langage C (2017)&nbsp;</li>
+								<li>Socle en Informatique (bases en algorithmique et en programmation - 2017)&nbsp;</li>
+								<li>Apprendre &agrave; coder avec Python (2020).</li>
+							</ul>
+					</div>
+	
+				</div>
+			</div>
+
+			<a href="#banner-header"><img src="img/back.png" class=" imgBackToTop  pull-right" alt="Retour en haut de la page" onclick="closeCollapseAll()"></a>
+		</div>
+	 		
+		</div>
+	</div>
+		</div>
+</div>
+
+<div id="PrepConcoursMediat">
+	<div class="accordion" id="accordionPrepConcoursMediat">
+		<div id="PrepConcoursMediat" class="card border-0" >
+			<div id="headingPrepConcoursMediat" class="card-header">		<h2 id="tilePrepConcoursMediat" onclick="switchImg('plusPrepConcoursMediat')">
+					<button class="btn btn-block text-left font-weight-bold accordion-heading" type="button" data-toggle="collapse" data-target="#collapsePrepConcoursMediat" aria-expanded="true" aria-controls="collapsePrepConcoursMediat" > Pr&eacute;paration au concours d'assistant de conservation du patr. et des biblioth&egrave;ques<img id="plusPrepConcoursMediat" class="imgCollapse details pull-right" src='img/plus.png'></button>
+				</h2>
+			</div>
+			<div id="detailsPrepConcoursMediat" class="padding-10">
+			<div class="diploma-info uni-info">
+			<img class="details" src='img/uni.png'>
+					M&eacute;diat Rh&ocirc;ne-Alpes
+			</div>
+			<div class="diploma-info year-info">
+				<img class="details" src='img/calendar.png'>
+					2022-2023
+			</div>
+			<div class="diploma-info">
+				<img class="details" src='img/mention.png'>
+								Laur&eacute;ate
+			</div>
+			</div>
+
+			<div id="collapsePrepConcoursMediat" class="collapse" aria-labelledby="headingPrepConcoursMediat" data-parent="#accordionPrepConcoursMediat">
+	 	<div id="bodyPrepConcoursMediat" class="card-body border-0">
+	 		<div id="BaseASL">
+	 			<p>Pr&eacute;parer aux &eacute;preuves &eacute;crites du concours d'Assistant de Conservation du patrimoine et des biblioth&egrave;ques&nbsp;:
+	 				<ul>
+	 					<li>Cours sur la fonction publique territoriale et les missions des biblioth&egrave;ques.<br>Th&egrave;mes abord&eacute;s&nbsp;: la loi n° 2021-1717 du 21 d&eacute;cembre 2021 relative aux biblioth&egrave;ques et au d&eacute;veloppement de la lecture publique, les droits culturels, le PCSES, le CTL, le RGPD en biblioth&egrave;que... &nbsp;;</li>
+	 					<li>Cours sur la m&eacute;thodologie des &eacute;preuves &eacute;crites et orales&nbsp;;</li>
+	 					<li>Entraînement aux &eacute;preuves &eacute;crites (note de synth&egrave;se et questionnaire - devoirs sur table) et orale (simulation d'entretien).</li>
+	 				</ul>
+				</p>
+
+						
+		</div>
+	 		
+		</div>
+		<a href="#banner-header"><img src="img/back.png" class=" imgBackToTop  pull-right" alt="Retour en haut de la page" onclick="closeCollapseAll()"></a>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div id="FormAndragogie">
+	<div class="accordion" id="accordionFormAndragogie">
+		<div id="FormAndragogie" class="card border-0" >
+	<div id="headingFormAndragogie" class="card-header">				
+		<h2 id="tileFormAndragogie" onclick="switchImg('plusFormAndragogie')">
+			<button class="btn btn-block text-left font-weight-bold accordion-heading" type="button" data-toggle="collapse" data-target="#collapseFormAndragogie" aria-expanded="true" aria-controls="collapseFormAndragogie"> Formation pour Adultes <img id="plusFormAndragogie" class=" imgCollapse details pull-right" src='img/plus.png'></button>
+		</h2>
+	</div>
+	<div id="detailsFormAndragogie" class="padding-10">
+		<div class="diploma-info uni-info">
+			<img class="details" src='img/uni.png'>
+							Cnam / CRIA-Is&egrave;re
+		</div> 
+		<div class="diploma-info year-info">
+			<img class="details" src='img/calendar.png'>
+							2016-2023
+		</div>
+		<div class="diploma-info">
+			
+		</div>
+	</div>
+
+	<div id="collapseFormAndragogie" class="collapse" aria-labelledby="headingFormAndragogie" data-parent="#accordionFormAndragogie">
+	 	<div id="bodyFormAndragogie" class="card-body border-0">
+	 			 		<div id="FormCRIA38">
+	 			<p>
+					<span class="job-dates">2023</span>
+					<span class="job-title">Centre Ressources Illettrisme et Analphab&eacute;tisme de l’Is&egrave;re</span>
+				</p>
+				<div>
+					<div >
+						<ul>
+							<li>Formation de base en animation socio-linguistique (<a href="http://www.aslweb.fr/asl-menu/charte-des-asl/" target="_blank">ASL</a>).</li>
+						</ul>
+					</div>
+				
+	
+				</div>
+			</div>
+	 		<div id="FormCnamFAD">
+	 			<p>
+					<span class="job-dates">2016-2018</span>
+					<span class="job-title">Cnam (Conservatoire des Arts et M&eacute;tiers)</span>
+				</p>
+				<div>
+					<div >
+						<ul>
+							<li>Animation, gestion et &eacute;valuation d'une s&eacute;quence p&eacute;dagogique (<a href="https://formation.cnam.fr/rechercher-par-discipline/animation-gestion-et-evaluation-d-une-sequence-pedagogique-1594582.kjsp" target="_blank">FAD106</a>)&nbsp;;</li>
+							<li>Apprentissages et m&eacute;diations p&eacute;dagogiques (<a href="https://formation.cnam.fr/rechercher-par-discipline/apprentissages-et-mediations-pedagogiques-1594592.kjsp" target="_blank">FAD140</a>)&nbsp;;</li>
+							<li>Conception, r&eacute;alisation et &eacute;valuation d’une action de formation (<a href="https://formation.cnam.fr/rechercher-par-discipline/conception-et-pilotage-d-une-action-de-formation-1594588.kjsp" target="_blank">FAD118</a>).</li>
+						</ul>
+					</div>
+				
+	
+				</div>
+			</div>
+
+			<a href="#banner-header"><img src="img/back.png" class=" imgBackToTop  pull-right" alt="Retour en haut de la page" onclick="closeCollapseAll()"></a>
+		</div>
+	 		
+		</div>
+	</div>
+		</div>
+</div>
+
+
+<div id="L3Bib">
+	<div class="accordion" id="accordionL3Bib">
+		<div id="L3Bib" class="card border-0" >
+	<div id="headingL3Bib" class="card-header">				
+		<h2 id="tileL3Bib" onclick="switchImg('plusL3Bib')">
+			<button class="btn btn-block text-left font-weight-bold accordion-heading" type="button" data-toggle="collapse" data-target="#collapseL3Bib" aria-expanded="true" aria-controls="collapseL3Bib"> Licence Biblioth&egrave;ques <img id="plusL3Bib" class="imgCollapse details pull-right" src='img/plus.png'></button>
+		</h2>
+	</div>
+	<div id="detailsL3Bib" class="padding-10">
+		<div class="diploma-info uni-info">
+		<img class="details" src='img/uni.png'>
+							Universit&eacute; Toulouse II
+		</div>
+		<div class="diploma-info year-info">
+			<img class="details" src='img/calendar.png'>
+								2011-2012
+		</div>
+		<div class="diploma-info">
+			<img class="details" src='img/mention.png'>
+								Mention <em>Bien</em>
+		</div>
+	</div>
+
+	<div id="collapseL3Bib" class="collapse" aria-labelledby="headingL3Bib" data-parent="#accordionL3Bib">
+	 	<div id="bodyL3Bib" class="card-body border-0">
+	 		
+				<div id="bib">
+					<div class="third-space">
+						<p class="job-title">Biblioth&eacute;conomie</p>
+						<ul>
+							<li>Sociologie des	publics&nbsp;;</li>
+							<li>Droit public et droit de la culture&nbsp;;</li>
+							<li>M&eacute;thodologie d'analyse d'ouvrages&nbsp;: fiction (albums, romans, bandes dessin&eacute;es), presse et documentaires (adultes et jeunesse)&nbsp;;</li>
+							<li>Mise en valeur des collections et cr&eacute;ation de s&eacute;lections bibliographiques.</li>
+						</ul>
+					</div>
+					<div class="third-space">
+						<p class="job-title">Traitement documentaire</p>
+						<ul>
+							<li>Cr&eacute;ation et orientation d'une politique documentaire&nbsp;;</li>
+							<li>Veille &eacute;ditoriale et acquisition&nbsp;;</li>
+							<li>Catalogage, indexation (Dewey, RAMEAU).</li>
+						</ul>
+					</div>
+					<div class="third-space">
+						<p class="job-title">Informatique documentaire</p>
+						<ul>
+							<li>Cr&eacute;ation d’une base de donn&eacute;es&nbsp;;</li>
+							<li>Etude du fonctionnement des moteurs de recherche en ligne&nbsp;;</li>
+							<li>Recherche d’informations en ligne.</li>
+						</ul>
+					</div>
+
+					<p class="bold sub-title">Quelques travaux r&eacute;alis&eacute;s</p>	
+					<div class="half-space">
+						<p>
+							<span class="job-title">Dossier de recherche</span><br><em>Clubs de lecture et	prix litt&eacute;raires en biblioth&egrave;que jeunesse</em>
+							<!-- <br>
+							<button type="button" class="btn btn-more-info"><a href="travaux-recherche.html#ClubsLect">En savoir plus</a></button> -->
+
+						</p>
+					</div>
+					<div class="half-space">
+						<p>
+							<span class="job-title">Base de donn&eacute;es</span><br> Conception et cr&eacute;ation d'une base de donn&eacute;es pour la gestion de critiques issues de la revue <em>Les Cahiers du cin&eacute;ma</em> (travail de groupe).
+						</p>
+					</div>			
+			</div>
+	 		<a href="#banner-header"><img src="img/back.png" class=" imgBackToTop  pull-right" alt="Retour en haut de la page" onclick="closeCollapseAll()"></a>
+		</div>
+	</div>
+		</div>
+	</div>
+</div> 
+
+
+<div id="M1InfoDoc">
+	<div class="accordion" id="accordionM1InfoDoc">
+		<div id="M1InfoDoc" class="card border-0" >
+	<div id="headingM1InfoDoc" class="card-header" >				<h2 id="tileM1InfoDoc" onclick="switchImg('plusM1InfoDoc')">
+			<button class="btn btn-block text-left font-weight-bold accordion-heading" type="button" data-toggle="collapse" data-target="#collapseM1InfoDoc" aria-expanded="true" aria-controls="collapseM1InfoDoc"> Master 1 Gestion de l’information et du document <img id="plusM1InfoDoc" class="imgCollapse details pull-right" src='img/plus.png'></button>
+		</h2>
+	</div>
+	<div id="detailsM1InfoDoc" class="padding-10">
+		<div class="diploma-info uni-info">
+		<img class="details" src='img/uni.png'>
+						Universit&eacute; Paris VIII
+		</div>
+		<div class="diploma-info year-info">
+			<img class="details" src='img/calendar.png'>
+						2006-2007
+		</div>
+		<div class="diploma-info">
+			<img class="details" src='img/mention.png'>
+						Partiellement valid&eacute;
+		</div>
+	</div>
+
+	<div id="collapseM1InfoDoc" class="collapse" aria-labelledby="headingM1InfoDoc" data-parent="#accordionM1InfoDoc">
+	 	<div id="bodyM1InfoDoc" class="card-body border-0">
+			<div id='gid'>
+				<div class="third-space">
+						<p class="job-title">Traitement documentaire</p>
+						<ul>
+							<li>Normes de catalogage&nbsp;;</li>
+							<li>Indexation&nbsp;;</li>
+							<li>Langages documentaires&nbsp;: math&eacute;matiques, linguistique et r&eacute;alisation d’un th&eacute;saurus).</li>
+						</ul>
+					</div>
+					<div class="third-space">
+						<p class="job-title">Technologies de l’information</p>
+						<ul>
+							<li>Informatiques g&eacute;n&eacute;rale et documentaire&nbsp;;</li>
+							<li>Gestion de fichiers informatiques et algorithmes&nbsp;;</li>
+							<li>Technologies d’Internet (HTML, CSS, XML).</li>
+						</ul>
+					</div>
+					<div class="third-space">
+						<p class="job-title">Recherche et gestion de l’information</p>
+						<ul>
+							<li>Recherche d’informations en ligne&nbsp;;</li>
+							<li>Droit de l’information.</li>
+						</ul>
+					</div>
+
+				<p class="bold sub-title">Quelques travaux r&eacute;alis&eacute;s</p>	
+					<div class="half-space">
+						<p>
+							<span class="job-title">Th&eacute;saurus</span><br><em>La Veille en entreprise</em>, r&eacute;alis&eacute; &agrave; la suite d’entretiens avec des charg&eacute;s de veille (373
+							candidats-descripteurs et 137 descripteurs).
+
+						</p>
+					</div>
+					<div class="half-space">
+						<p>
+							<span class="job-title">Dossier documentaire</span><br><em>Les Transferts	financiers des &eacute;migr&eacute;s originaires de la vall&eacute;e du fleuve S&eacute;n&eacute;gal vers leur pays d’origine</em>, en pr&eacute;paration d’un film documentaire.
+						</p>
+					</div>	
+
+			</div>
+	 		
+		</div>
+		<a href="#banner-header"><img src="img/back.png" class=" imgBackToTop  pull-right" alt="Retour en haut de la page" onclick="closeCollapseAll()"></a>
+	</div>
+		</div>
+	</div>
+</div> 
+		
+	</main>
+
+	<footer>
+		<div id="banner-footer">
+			<div class="text-banner">
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</footer>
+</div> <!-- pageContainer - FIN -->
+
+<!-- SCRIPTS -->
+
+<script src="./js/navbar_script.js" type="text/javascript"></script>
+
+<script src="./js/general_script.js" type="text/javascript"></script>
+
+	<!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!-- SCRIPTS - FIN -->
+
+</body>
+</html>
